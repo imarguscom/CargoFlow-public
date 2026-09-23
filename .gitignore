@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Data and generated artifacts
+data/raw/
+data/interim/
+data/processed/
+artifacts/
+models/
+outputs/
+*.parquet
+*.pkl
+*.joblib
+
+# Notebook checkpoints
+.ipynb_checkpoints/

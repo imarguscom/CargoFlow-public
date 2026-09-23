@@ -1,0 +1,18 @@
+{
+  "fast": {
+    "runtime_seconds": 1.0,
+    "max_iterations": 2000,
+    "max_no_improvement": 500,
+    "seeds": [42, 20260907, 271828]
+  },
+  "balanced": {
+    "runtime_seconds": 5.0,
+    "max_iterations": 10000,
+    "max_no_improvement": 2500,
+    "seeds": [42, 20260907, 271828]
+  },
+  "reference": {
+    "iterations": 5000,
+    "seeds": [42]
+  }
+}
