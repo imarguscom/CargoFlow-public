@@ -259,6 +259,13 @@ learned preference-cost experiment.
 The tutorial demonstrates the single-route workflow; the fixed multi-route
 experiments above provide benchmark comparisons.
 
+## Download the processed data
+
+The [CargoFlow dataset on Hugging Face](https://huggingface.co/datasets/argus0v0/CargoFlow)
+provides **6,112 processed routes** and the **fixed 100-route comparison set with
+ILS+LKH initial solutions**. Its dataset card includes the source, CC BY-NC 4.0
+license, data fields, and runnable examples.
+
 ## Run the current baseline
 
 Install Python 3.11+ and the pinned solver dependency:
